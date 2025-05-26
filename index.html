@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Verdadero o Falso</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+      <style>
+     body {
+    background-color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url('img/yes\ or\ no.jpg');  /* la URL de tu imagen */
+    background-size: cover;
+    color: #CE5937;
+    text-align: center;
+   
+}
+  </style>
+    <div class="container">
+        <h1   color: #CE5937;>Juego de Verdadero o Falso</h1>
+        <div id="pregunta"></div>
+        <button onclick="respuesta('verdadero')"><b>Verdadero</b></button>
+        <button onclick="respuesta('falso')"><b>Falso</b></button>
+        <div id="resultado"></div>
+        <div id="puntaje"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
